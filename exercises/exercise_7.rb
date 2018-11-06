@@ -10,3 +10,9 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+
+@store_name = player_answer = $stdin.gets.chomp.to_s
+
+Store.create!(
+  name: @store_name,
+ )
